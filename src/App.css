@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 64px;
 }
 
 .App-logo {
@@ -35,4 +37,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Bold-text {
+  font-weight: 600;
+}
+
+.Text {
+  margin-left: 40px;
 }
